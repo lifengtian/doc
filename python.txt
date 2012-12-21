@@ -1,0 +1,9 @@
+install a local copy of python 2.7.3
+download from python website
+./configure --prefix=/local/python
+PYTHONPATH=/local/python/site-packages
+PATH=/local/python/bin:$PATH
+
+wget peak.telecommunity.com/dist/ez_setup.py
+python ez_setup.py
+
