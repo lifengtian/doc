@@ -1,4 +1,3 @@
-
 gcc -include stdio.h hello.c -o hello --std=gnu99 -Wall -g -O3
 
 or
@@ -7,4 +6,7 @@ export CFLAGS='-g -Wall -include stdio.h'
 make hello
 
 
+
+* favoriate flags
+** -g  adds symbols for debugging
 
