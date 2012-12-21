@@ -1,0 +1,11 @@
+
+
+Show host status
+qhost
+
+Show the summary of all queues (no of slots, used/available)
+qstat -g c
+
+Alter job status
+qalter -hold_jid job1.id
+
