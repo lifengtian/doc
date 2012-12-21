@@ -1,0 +1,29 @@
+Dec 20, 2012
+taocp:~ tianl$ brew install git
+Warning: Your Xcode (4.5.1) is outdated
+Please install Xcode 4.5.2.
+==> Downloading http://git-core.googlecode.com/files/git-1.8.0.2.tar.gz
+######################################################################## 100.0%
+==> make prefix=/usr/local/Cellar/git/1.8.0.2 CC=cc CFLAGS= LDFLAGS= install
+==> make CC=cc CFLAGS= LDFLAGS=
+==> make clean
+==> make CC=cc CFLAGS= LDFLAGS=
+==> Downloading http://git-core.googlecode.com/files/git-manpages-1.8.0.2.tar.gz
+######################################################################## 100.0%
+==> Downloading http://git-core.googlecode.com/files/git-htmldocs-1.8.0.2.tar.gz
+######################################################################## 100.0%
+==> Caveats
+The OS X keychain credential helper has been installed to:
+  /usr/local/bin/git-credential-osxkeychain
+
+The 'contrib' directory has been installed to:
+  /usr/local/share/git-core/contrib
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+/usr/local/Cellar/git/1.8.0.2: 1252 files, 24M, built in 62 seconds
+taocp:~ tianl$ which git
+/usr/local/bin/git
+
+
