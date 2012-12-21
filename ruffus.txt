@@ -1,4 +1,3 @@
-
 Dec 21, 2012
 [tianl@respublica python]$ /mnt/isilon/cag/ngs/hiseq/respublica/pipeline/python/bin/easy_install ruffus
 Searching for ruffus
@@ -15,3 +14,15 @@ Installed /mnt/isilon/cag/ngs/hiseq/respublica/pipeline/python/lib/python2.7/sit
 Processing dependencies for ruffus
 Finished processing dependencies for ruffus
 
+
+The python functions which do the actual work of each stage or task of a Ruffus pipeline are written by you.
+The role of Ruffus is to make sure these functions are called in the right order, with the right parameters, running in parallel using multiprocessing if desired.
+This step of the tutorial explains how these pipeline parameters are specified.
+
+By letting Ruffus manage your pipeline parameters, you will get the following features for free:
+
+        only out-of-date parts of the pipeline will be re-run
+        multiple jobs can be run in parallel (on different processors if possible)
+        pipeline stages can be chained together automatically
+
+Ruffus is NOT ready for SGE/hadoop. 
