@@ -1,0 +1,28 @@
+update my C with 21st century C
+
+set up a full build system with C and lots of useful libraries
+
+* Use a Package Manager
+What is a package manager? Well, for Mac, there is Fink, Macports, Homebrew.
+
+** packages I need
+*** A great compiler. gcc or clang
+*** gdb, a great debugger
+*** Valgrand, find memory errors 
+*** gprof, a profiler
+*** make, a builder
+*** pkg-config, finding libraries
+*** Doxygen, doc generator
+*** text editor
+*** Autotools: Autoconf, Automake, libtool
+*** version control: git
+
+** Libraries
+*** libcURL
+*** libGlib
+*** libGSL
+*** libSQLite3
+*** libXML2
+
+
+
