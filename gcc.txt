@@ -1,0 +1,10 @@
+
+gcc -include stdio.h hello.c -o hello --std=gnu99 -Wall -g -O3
+
+or
+export CC=c99
+export CFLAGS='-g -Wall -include stdio.h'
+make hello
+
+
+
