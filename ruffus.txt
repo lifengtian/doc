@@ -1,16 +1,17 @@
 Dec 21, 2012
-[tianl@respublica python]$ /mnt/isilon/cag/ngs/hiseq/respublica/pipeline/python/bin/easy_install ruffus
+easy_install ruffus
+
 Searching for ruffus
 Reading http://pypi.python.org/simple/ruffus/
 Reading http://ruffus.googlecode.com
 Best match: ruffus 2.2
 Downloading https://ruffus.googlecode.com/files/ruffus-2.2.tar.gz
 Processing ruffus-2.2.tar.gz
-Running ruffus-2.2/setup.py -q bdist_egg --dist-dir /mnt/isilon/cag/ngs/hiseq/respublica/pipeline/temp/easy_install-fP7f76/ruffus-2.2/egg-dist-tmp-cves0r
+Running ruffus-2.2/setup.py -q bdist_egg --dist-dir /temp/easy_install-fP7f76/ruffus-2.2/egg-dist-tmp-cves0r
 zip_safe flag not set; analyzing archive contents...
 Adding ruffus 2.2 to easy-install.pth file
 
-Installed /mnt/isilon/cag/ngs/hiseq/respublica/pipeline/python/lib/python2.7/site-packages/ruffus-2.2-py2.7.egg
+Installed python/lib/python2.7/site-packages/ruffus-2.2-py2.7.egg
 Processing dependencies for ruffus
 Finished processing dependencies for ruffus
 
