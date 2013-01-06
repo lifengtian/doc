@@ -1,0 +1,12 @@
+
+
+
+
+To write the entire contents of the scrollback buffer to a file, type
+
+CTRL :
+
+to get to command mode, then
+
+hardcopy -h <filename>
+
