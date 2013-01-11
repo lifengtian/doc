@@ -1,5 +1,4 @@
 
-
 Show host status
 qhost
 
@@ -9,3 +8,15 @@ qstat -g c
 Alter job status
 qalter -hold_jid job1.id
 
+
+
+
+/cm/shared/apps/sge/2011.11/include
+-rw-r--r-- 1 root root 32K Dec  7 08:50 drmaa.h
+
+/cm/shared/apps/sge/2011.11/lib/linux-x64
+lrwxrwxrwx 1 root root   15 Dec 23 01:08 libdrmaa.so -> libdrmaa.so.1.0
+-rwxr-xr-x 1 root root 2.0M Dec  7 08:50 libdrmaa.so.1.0
+-rwxr-xr-x 1 root root 3.9M Dec  7 08:50 libjgdi.so
+-rwxr-xr-x 1 root root 7.6K Dec  7 08:50 libjuti.so
+-rwxr-xr-x 1 root root  73K Dec  7 08:50 libXltree.so
