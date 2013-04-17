@@ -1,0 +1,26 @@
+
+acme
+
+Cut Paste Put 
+Edit ,s/acme/acme/g
+
+
+date
+|wc
+>spell
+<astro
+
+/Users/tianl/workspace/frazierMerck.txt:/VIOXX/,/,/
+
+g main
+go run $%
+
+
+acme is IDE doing right. It integrate tools already there. 
+
+win
+
+adict acme(1)
+
+plumb or do you want to be plumber?
+
