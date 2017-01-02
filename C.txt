@@ -7,7 +7,7 @@ What is a package manager? Well, for Mac, there is Fink, Macports, Homebrew.
 
 ** packages I need
 *** A great compiler. gcc or clang
-*** gdb, a great debugger
+*** gdb, a debugger
 *** Valgrand, find memory errors 
 *** gprof, a profiler
 *** make, a builder

@@ -1,4 +1,19 @@
 
+
 date +"%m-%d-%y"
 date +"%s"
+
+
+
+set -e 
+	By default, a shell script containing a command that fails (exits with a nonzero exit status) will not cause the entire shell script to exit—the shell script will just continue on to the next line. This is not a desirable behavior; we always want errors to be loud and noticeable. set -e prevents this, by terminating the script if any command exited with a nonzero exit status. Note, however, that set -e has complex rules to accommodate cases when a nonzero exit status indicates “false” rather than failure. For example, test -d file.txtwill return a nonzero exit status if its argument is not a directory, but in this context this isn’t meant to represent an error. set -e ignores nonzero statuses in if conditionals for this reason (we’ll discuss this later). Also, set -e ignores all exit statuses in Unix pipes except the last one—this relates to set -o pipefail, which we discuss later.
+
+
+set -u 
+	set -u fixes another unfortunate default behavior of Bash scripts: any command containing a reference to an unset variable name will still run.
+
+set -o pipefail 
+	set -e will cause a script to abort if a nonzero exit status is encountered, with some exceptions. One such exception is if a program run in a Unix pipe exited unsuccessfully; unless this program was the last program in the pipe, this would not cause the script to abort even with set -e. Including set -o pipefail will prevent this undesirable behavior—any program that returns a nonzero exit status in the pipe will cause the entire pipe to return a nonzero status. With set -e enabled, too, this will lead the script to abort
+
+
 
