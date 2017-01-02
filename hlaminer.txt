@@ -1,3 +1,0 @@
-Dec 20, 2012
-Ran it on OT01 and did NOT call any HLA types.
-
